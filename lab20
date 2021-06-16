@@ -1,0 +1,20 @@
+using System;
+
+namespace ConsoleApp8
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            string s1 = "1234567";
+
+            for(int i = 0; i < s1.Length; i++)
+            {
+                if(i == 0 || i == s1.Length - 1 || i == (s1.Length - 1)/2)
+                {
+                    Console.WriteLine(s1[i]);
+                }
+            }
+        }
+    }
+}
